@@ -1,4 +1,4 @@
-import { Keys } from '@refetched/core';
+import { Keys } from '@refetched/core-types';
 import { OrderByInput } from './OrderByInput';
 
 export type DecryptedCursorData<T extends object> = {

@@ -1,4 +1,4 @@
-import { Encoded } from '@refetched/core';
+import { Encoded } from '@refetched/core-types';
 import { Encrypted } from '@refetched/cryptography';
 
 export type DecodedCursor = {

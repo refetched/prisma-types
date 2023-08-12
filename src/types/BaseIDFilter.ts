@@ -1,4 +1,4 @@
-import { Enumerable } from '@refetched/core';
+import { Enumerable } from '@refetched/core-types';
 
 export type BaseIDFilter = {
   equals?: string;

@@ -1,4 +1,4 @@
-import { Enumerable, Nullable } from '@refetched/core';
+import { Enumerable, Nullable } from '@refetched/core-types';
 
 export type BaseIDNullableFilter = {
   equals?: Nullable<string>;

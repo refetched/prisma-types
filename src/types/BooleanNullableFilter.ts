@@ -1,4 +1,4 @@
-import { Nullable } from '@refetched/core';
+import { Nullable } from '@refetched/core-types';
 
 export type BooleanNullableFilter = {
   equals?: Nullable<boolean>;

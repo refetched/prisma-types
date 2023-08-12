@@ -1,4 +1,4 @@
-import { Enumerable, Keys } from '@refetched/core';
+import { Enumerable, Keys } from '@refetched/core-types';
 
 export type WhereInput<T extends object> =
   | {
