@@ -1,10 +1,10 @@
-import { Enumerable, Nullable } from '@refetched/core-types';
+import { Nullable } from '@refetched/core-types';
 
 export type IntNullableFilter = {
   equals?: Nullable<number>;
   gt?: number;
   gte?: number;
-  in?: Nullable<Enumerable<number>>;
+  in?: Nullable<number[]>;
   lt?: number;
   lte?: number;
 };

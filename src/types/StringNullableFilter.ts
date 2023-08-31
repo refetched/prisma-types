@@ -1,4 +1,4 @@
-import { Enumerable, Nullable } from '@refetched/core-types';
+import { Nullable } from '@refetched/core-types';
 import { QueryMode } from '.';
 
 export type StringNullableFilter = {
@@ -7,7 +7,7 @@ export type StringNullableFilter = {
   equals?: Nullable<string>;
   gt?: string;
   gte?: string;
-  in?: Nullable<Enumerable<string>>;
+  in?: Nullable<string[]>;
   lt?: string;
   lte?: string;
   mode?: QueryMode;

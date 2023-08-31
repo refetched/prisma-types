@@ -1,4 +1,3 @@
-import { Enumerable } from '@refetched/core-types';
 import { QueryMode } from '.';
 
 export type StringFilter = {
@@ -7,7 +6,7 @@ export type StringFilter = {
   equals?: string;
   gt?: string;
   gte?: string;
-  in?: Enumerable<string>;
+  in?: string[];
   lt?: string;
   lte?: string;
   mode?: QueryMode;
