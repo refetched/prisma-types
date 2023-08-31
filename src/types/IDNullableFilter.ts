@@ -1,3 +1,6 @@
-import { BaseIDNullableFilter } from '.';
+import { Enumerable, Nullable } from '@refetched/core-types';
 
-export type IDNullableFilter = { not?: IDNullableFilter } | BaseIDNullableFilter;
+export type IDNullableFilter = {
+  equals?: Nullable<string>;
+  in?: Nullable<Enumerable<string>>;
+};

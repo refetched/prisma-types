@@ -1,3 +1,6 @@
-import { BaseIDFilter } from '.';
+import { Enumerable } from '@refetched/core-types';
 
-export type IDFilter = BaseIDFilter | { not?: IDFilter };
+export type IDFilter = {
+  equals?: string;
+  in?: Enumerable<string>;
+};

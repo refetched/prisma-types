@@ -1,3 +1,10 @@
-import { BaseFloatFilter } from '.';
+import { Enumerable } from '@refetched/core-types';
 
-export type FloatFilter = BaseFloatFilter | { not?: FloatFilter };
+export type FloatFilter = {
+  equals?: number;
+  gt?: number;
+  gte?: number;
+  in?: Enumerable<number>;
+  lt?: number;
+  lte?: number;
+};
