@@ -7,7 +7,7 @@ export type StringNullableFilter = {
   equals?: Nullable<string>;
   gt?: string;
   gte?: string;
-  in?: Nullable<string[]>;
+  in?: string[];
   lt?: string;
   lte?: string;
   mode?: QueryMode;

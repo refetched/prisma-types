@@ -4,7 +4,7 @@ export type DateTimeNullableFilter = {
   equals?: Nullable<Date>;
   gt?: Date;
   gte?: Date;
-  in?: Nullable<Date[]>;
+  in?: Date[];
   lt?: Date;
   lte?: Date;
 };

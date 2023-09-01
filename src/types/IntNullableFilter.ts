@@ -4,7 +4,7 @@ export type IntNullableFilter = {
   equals?: Nullable<number>;
   gt?: number;
   gte?: number;
-  in?: Nullable<number[]>;
+  in?: number[];
   lt?: number;
   lte?: number;
 };
